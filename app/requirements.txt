@@ -16,3 +16,4 @@ python-dotenv==1.0.1
 pyotp==2.9.0
 bcrypt==4.1.2
 eventlet==0.39.1
+dnspython==2.7.0
