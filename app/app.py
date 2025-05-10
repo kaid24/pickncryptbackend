@@ -7,4 +7,4 @@ app.config.from_object(Config)
 app.register_blueprint(api, url_prefix='/api')
 
 if __name__ == '__main__':
-    socketio.run(app, debug=True, port=5000)
+    socketio.run(app, port=8080)
