@@ -6,10 +6,8 @@ from flask_socketio import SocketIO
 app = Flask(__name__)
 
 ALLOWED_ORIGINS = [
-        'http://localhost:3000',  # React dev server
-        'http://127.0.0.1:3000',
-        'http://localhost:8080',  # Vue dev server
-        'http://127.0.0.1:8080'
+        'https://pickncryptbackend-production.up.railway.app:8080',
+        'https://pickncryptbackend-production.up.railway.app'
     ]
 
 # Create a lowercase version for case-insensitive matching
